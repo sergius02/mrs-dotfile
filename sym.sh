@@ -12,6 +12,9 @@ ln -s $HOME/.dotfiles/layouts/keyboard/.dygma_layers.json $HOME/.dygma_layouts.j
 mkdir $HOME/.config/fontconfig/conf.d
 ln -s $HOME/.dotfiles/fonts/confs/01-emoji.conf $HOME/.config/fontconfig/conf.d
 
+# A nice theme for GTK
+ln -s $HOME/.dotfiles/desktop/themes/dracula-theme $HOME/.themes/dracula-theme
+
 # ZSH stuff
 ln -s $HOME/.dotfiles/modules/ohmyzsh $HOME/.oh-my-zsh
 ln -s $HOME/.dotfiles/shells/zsh/themes/dracula-zsh/dracula.zsh-theme $HOME/.oh-my-zsh/themes/dracula.zsh-theme
