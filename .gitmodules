@@ -4,3 +4,6 @@
 [submodule "modules/SpaceVim"]
 	path = modules/SpaceVim
 	url = https://github.com/SpaceVim/SpaceVim.git
+[submodule "modules/ohmyzsh"]
+	path = modules/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git

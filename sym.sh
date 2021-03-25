@@ -11,3 +11,5 @@ ln -s $HOME/.dotfiles/layouts/keyboard/.dygma_layers.json $HOME/.dygma_layouts.j
 # Emojis config
 mkdir $HOME/.config/fontconfig/conf.d
 ln -s $HOME/.dotfiles/fonts/confs/01-emoji.conf $HOME/.config/fontconfig/conf.d
+
+ln -s $HOME/.dotfiles/modules/ohmyzsh $HOME/.oh-my-zsh
