@@ -11,3 +11,6 @@
 [submodule "shells/zsh/themes/dracula-zsh"]
 	path = shells/zsh/themes/dracula-zsh
 	url = https://github.com/dracula/zsh.git
+[submodule "shells/zsh/plugins/zsh-autosuggestions"]
+	path = shells/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
