@@ -120,4 +120,9 @@ alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
 
+# Fixin typos
+alias claer="clear"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+neofetch
