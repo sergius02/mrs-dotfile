@@ -1,0 +1,11 @@
+
+set number relativenumber
+
+nnoremap / :action Find<cr>
+nnoremap g/ /
+
+nnoremap <space>i :action GotoImplementation<cr>
+nnoremap <space>s :action GotoSuperMethod<cr>
+nnoremap <space>u :action FindUsages<cr>
+
+nnoremap <space>rr :action RenameElement<cr>
