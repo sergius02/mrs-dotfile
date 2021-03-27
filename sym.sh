@@ -21,5 +21,4 @@ ln -s $HOME/.dotfiles/shells/zsh/themes/dracula-zsh/dracula.zsh-theme $HOME/.oh-
 ln -s $HOME/.dotfiles/shells/zsh/plugins/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 # Alacritty
-mkdir -p $HOME/.config/alacritty
-ln -s $HOME/.dotfiles/terminals/alacritty/confs/alacritty.yml $HOME/.config/alacritty/alacritty.yml
+ln -s $HOME/.dotfiles/terminals/alacritty $HOME/.config/
