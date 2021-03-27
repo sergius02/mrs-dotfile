@@ -22,3 +22,6 @@ ln -s $HOME/.dotfiles/shells/zsh/plugins/zsh-autosuggestions $HOME/.oh-my-zsh/cu
 
 # Alacritty
 ln -s $HOME/.dotfiles/terminals/alacritty $HOME/.config/
+
+# Polybar
+ln -s $HOME/.dotfiles/desktop/applications/polybar $HOME/.config/
