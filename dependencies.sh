@@ -1,5 +1,5 @@
 # Things i need
-sudo pacman -S jre8-openjdk jdk8-openjdk neovim python-pynvim postgresql pgadmin4 python python-pip wget
+sudo pacman -S jre8-openjdk jdk8-openjdk neovim python-pynvim postgresql pgadmin4 python python-pip wget rofi
 
 mkdir -p $HOME/.jetbrains-toolbox
 wget https://download-cf.jetbrains.com/toolbox/jetbrains-toolbox-1.20.7940.tar.gz -P $HOME/.jetbrains-toolbox
