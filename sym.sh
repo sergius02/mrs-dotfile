@@ -26,5 +26,8 @@ ln -s $HOME/.dotfiles/terminals/alacritty $HOME/.config/
 # Polybar
 ln -s $HOME/.dotfiles/desktop/applications/polybar $HOME/.config/
 
+# Rofi
+ln -s $HOME/.dotfiles/desktop/applications/rofi $HOME/.config
+
 # IdeaVIM
 ln -s $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/
