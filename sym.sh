@@ -6,7 +6,9 @@ ln -s $HOME/.dotfiles/modules/fzf $HOME/.fzf
 ln -s $HOME/.dotfiles/shells/zsh/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/shells/zsh/.fzf.zsh $HOME/.fzf.zsh
 
+# My Dygma raise configurations
 ln -s $HOME/.dotfiles/layouts/keyboard/.dygma_layers.json $HOME/.dygma_layouts.json
+ln -s $HOME/.dotfiles/layouts/keyboard/.allMacros.json $HOME/.allMacros.json
 
 # Emojis config
 mkdir $HOME/.config/fontconfig/conf.d
