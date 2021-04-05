@@ -966,6 +966,7 @@ bindsym $mod+b exec --no-startup-id bwmenu
 
 # Splatmoji
 bindsym $mod+slash exec --no-startup-id rofimoji
+bindsym $mod+g exec --no-startup-id rofi -modi "gitmofi:gitmofi" -show gitmofi
 
 # Dracula theme
 
