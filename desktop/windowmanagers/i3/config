@@ -965,7 +965,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 bindsym $mod+b exec --no-startup-id bwmenu
 
 # Splatmoji
-bindsym $mod+slash exec --no-startup-id splatmoji copy
+bindsym $mod+slash exec --no-startup-id rofimoji
 
 # Dracula theme
 
