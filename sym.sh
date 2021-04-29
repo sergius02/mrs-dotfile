@@ -33,3 +33,6 @@ ln -s $HOME/.dotfiles/desktop/applications/rofi $HOME/.config
 
 # IdeaVIM
 ln -s $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/
+
+# Spaceship prompt for ZSH
+ln -s $HOME/.dotfiles/modules/spaceship-prompt/spaceship.zsh-theme $HOME/.oh-my-zsh/custom/themes
