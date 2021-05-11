@@ -104,6 +104,9 @@ fi
 alias ls='ls -lah'
 alias l.="ls -A | egrep '^\.'"
 
+alias e='exa --long --header --icons --git'
+alias et='exa --tree --level=2 --icons'
+
 # df human readable
 alias df='df -h'
 
@@ -126,3 +129,4 @@ alias claer="clear"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 neofetch
+fpath+=${ZDOTDIR:-~}/.zsh_functions
