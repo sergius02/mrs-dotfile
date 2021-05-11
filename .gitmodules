@@ -25,3 +25,5 @@
 [submodule "modules/spaceship-prompt"]
 	path = modules/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule "terminals/alacritty/themes/alacritty-dracula-theme"]
+	url = https://github.com/dracula/alacritty
