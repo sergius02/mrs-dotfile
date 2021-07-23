@@ -1,0 +1,5 @@
+# The position of the bar
+i3-wm.bar.position:	top
+
+# Apps border
+i3-wm.client.focused.color.child_border:	#50fa7b

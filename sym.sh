@@ -36,3 +36,7 @@ ln -s $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/
 
 # Spaceship prompt for ZSH
 ln -s $HOME/.dotfiles/modules/spaceship-prompt/spaceship.zsh-theme $HOME/.oh-my-zsh/custom/themes
+
+# Regolith
+ln -s $HOME/.dotfiles/desktop/regolith/i3 $HOME/.config/regolith/i3
+ln -s $HOME/.dotfiles/desktop/regolith/Xresources $HOME/.config/regolith/Xresources
