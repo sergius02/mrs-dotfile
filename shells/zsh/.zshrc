@@ -103,7 +103,9 @@ fi
 # Better ls
 alias l='exa --long --header --icons --git'
 alias ls='exa --long --header --icons --git'
+alias la='exa --long --header --icons --git -a'
 alias lt='exa --tree --level=2 --icons'
+alias lta='exa --tree --level=2 --icons -a'
 
 # df human readable
 alias df='df -h'
