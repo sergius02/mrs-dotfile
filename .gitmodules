@@ -20,8 +20,6 @@
 [submodule "desktop/applications/polybar/scripts/polybar-scripts"]
 	path = desktop/applications/polybar/scripts/polybar-scripts
 	url = https://github.com/polybar/polybar-scripts.git
-[submodule "desktop/applications/rofi/dracula-rofi"]
-	url = https://github.com/sergius02/rofi.git
 [submodule "modules/spaceship-prompt"]
 	path = modules/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
