@@ -1,2 +1,2 @@
-* Execute xrandr script in lightdm
-display-setup-script=/home/sergio/.screenlayout/screens_layout.sh
+* Clone dotfiles
+git clone --recurse-submodules  https://github.com/sergius02/mrs-dotfile.git .dotfiles
