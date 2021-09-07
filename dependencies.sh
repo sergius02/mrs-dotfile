@@ -15,3 +15,6 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-nightly-archive-keyring.g
 sudo apt update
 
 sudo apt install brave-browser-nightly
+
+# rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
