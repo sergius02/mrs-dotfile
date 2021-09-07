@@ -129,3 +129,7 @@ alias claer="clear"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+export PATH=/opt/firefox-dev/firefox:$PATH
+export DENO_INSTALL="/home/sergio/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
