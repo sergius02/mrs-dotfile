@@ -703,3 +703,8 @@ assign [class="Skype|skype"]          → "$ws3"
 assign [class="Alacritty|alacritty"]  → "$ws2"
 assign [class="Spotify|spotify"]      → "$ws9"
 for_window [class="Spotify"] move to workspace "$ws9"
+
+# Some apps are better in floating mode by default
+for_window [class="Telegram|telegram"] floating enable
+for_window [class="Bitwarden|bitwarden"] floating enable
+for_window [class="GDebi|gdebi"] floating enable
