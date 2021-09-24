@@ -26,3 +26,6 @@
 [submodule "terminals/alacritty/themes/alacritty-dracula-theme"]
 	path = terminals/alacritty/themes/alacritty-dracula-theme
 	url = https://github.com/dracula/alacritty.git
+[submodule "desktop/applications/ulauncher/dracula-theme"]
+	path = desktop/applications/ulauncher/dracula-theme
+	url = https://github.com/dracula/ulauncher.git

@@ -101,9 +101,9 @@ bindsym $mod+$i3-wm.binding.browser exec gtk-launch $(xdg-settings get default-w
 set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/lascaille/rofi.rasi
 
 ## Launch // Application // <> Space ##
-set_from_resource $i3-wm.binding.launcher.app i3-wm.binding.launcher.app space
-set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
-bindsym $mod+$i3-wm.binding.launcher.app exec $i3-wm.program.launcher.app
+#set_from_resource $i3-wm.binding.launcher.app i3-wm.binding.launcher.app space
+#set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
+#bindsym $mod+$i3-wm.binding.launcher.app exec $i3-wm.program.launcher.app
 
 ## Launch // Command // <><Shift> Space ##
 set_from_resource $i3-wm.binding.launcher.cmd i3-wm.binding.launcher.cmd Shift+space
@@ -681,6 +681,7 @@ exec --no-startup-id $i3-wm.program.3
 # MY CONFIGS
 bindsym $mod+Shift+g exec --no-startup-id rofi -modi "gitmofi:gitmofi" -font "NotoSans Nerd Font 11" -show gitmofi
 bindsym $mod+$i3-wm.binding.terminal exec /home/sergio/.local/bin/alacritty
+bindsym $mod+space exec ulauncher
 
 set $primaryMonitor HDMI-2
 set $verticalMonitor DP-1
@@ -708,3 +709,4 @@ for_window [class="Spotify"] move to workspace "$ws9"
 for_window [class="Telegram|telegram"] floating enable
 for_window [class="Bitwarden|bitwarden"] floating enable
 for_window [class="GDebi|gdebi"] floating enable
+for_window [class="Ulauncher|ulauncher"] floating enable

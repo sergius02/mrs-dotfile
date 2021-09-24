@@ -30,3 +30,7 @@ ln -s $HOME/.dotfiles/modules/spaceship-prompt/spaceship.zsh-theme $HOME/.oh-my-
 # Regolith
 ln -s $HOME/.dotfiles/desktop/regolith/i3 $HOME/.config/regolith/i3
 ln -s $HOME/.dotfiles/desktop/regolith/Xresources $HOME/.config/regolith/Xresources
+
+# Ulauncher
+mkdir -p $HOME/.config/ulauncher/user-themes
+ln -s $HOME/.dotfiles/desktop/applications/ulauncher/dracula-theme $HOME/.config/ulauncher/user-themes/dracula-ulauncher
