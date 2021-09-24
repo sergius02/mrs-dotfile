@@ -21,3 +21,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Ulauncher
 sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
+
+# Polybar
+sudo apt install polybar

@@ -159,26 +159,26 @@ bindsym $mod+$i3-wm.binding.up focus up
 bindsym $mod+$i3-wm.binding.right focus right
 
 ## Navigate // Workspaces 1-10 // <> 0..9 ##
-bindsym $mod+$ws1_key workspace number $ws1
-bindsym $mod+$ws2_key workspace number $ws2
-bindsym $mod+$ws3_key workspace number $ws3
-bindsym $mod+$ws4_key workspace number $ws4
-bindsym $mod+$ws5_key workspace number $ws5
-bindsym $mod+$ws6_key workspace number $ws6
-bindsym $mod+$ws7_key workspace number $ws7
-bindsym $mod+$ws8_key workspace number $ws8
-bindsym $mod+$ws9_key workspace number $ws9
-bindsym $mod+$ws10_key workspace number $ws10
+bindsym $mod+$ws1_key workspace  $ws1
+bindsym $mod+$ws2_key workspace  $ws2
+bindsym $mod+$ws3_key workspace  $ws3
+bindsym $mod+$ws4_key workspace  $ws4
+bindsym $mod+$ws5_key workspace  $ws5
+bindsym $mod+$ws6_key workspace  $ws6
+bindsym $mod+$ws7_key workspace  $ws7
+bindsym $mod+$ws8_key workspace  $ws8
+bindsym $mod+$ws9_key workspace  $ws9
+bindsym $mod+$ws10_key workspace  $ws10
 ## Navigate // Workspace 11 - 19 // <><Ctrl> 1..9 ##
-bindsym $mod+Ctrl+$ws1_key workspace number $ws11
-bindsym $mod+Ctrl+$ws2_key workspace number $ws12
-bindsym $mod+Ctrl+$ws3_key workspace number $ws13
-bindsym $mod+Ctrl+$ws4_key workspace number $ws14
-bindsym $mod+Ctrl+$ws5_key workspace number $ws15
-bindsym $mod+Ctrl+$ws6_key workspace number $ws16
-bindsym $mod+Ctrl+$ws7_key workspace number $ws17
-bindsym $mod+Ctrl+$ws8_key workspace number $ws18
-bindsym $mod+Ctrl+$ws9_key workspace number $ws19
+bindsym $mod+Ctrl+$ws1_key workspace  $ws11
+bindsym $mod+Ctrl+$ws2_key workspace  $ws12
+bindsym $mod+Ctrl+$ws3_key workspace  $ws13
+bindsym $mod+Ctrl+$ws4_key workspace  $ws14
+bindsym $mod+Ctrl+$ws5_key workspace  $ws15
+bindsym $mod+Ctrl+$ws6_key workspace  $ws16
+bindsym $mod+Ctrl+$ws7_key workspace  $ws17
+bindsym $mod+Ctrl+$ws8_key workspace  $ws18
+bindsym $mod+Ctrl+$ws9_key workspace  $ws19
 
 ## Navigate // Next Workspace // <> Tab ##
 set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next Tab
@@ -289,26 +289,26 @@ set_from_resource $i3-wm.binding.layout_mode i3-wm.binding.layout_mode t
 bindsym $mod+$i3-wm.binding.layout_mode layout toggle tabbed splith splitv
 
 ## Modify // Move Window to Workspace 1 - 10 // <><Shift> 0..9 ##
-bindsym $mod+Shift+$ws1_key move container to workspace number $ws1
-bindsym $mod+Shift+$ws2_key move container to workspace number $ws2
-bindsym $mod+Shift+$ws3_key move container to workspace number $ws3
-bindsym $mod+Shift+$ws4_key move container to workspace number $ws4
-bindsym $mod+Shift+$ws5_key move container to workspace number $ws5
-bindsym $mod+Shift+$ws6_key move container to workspace number $ws6
-bindsym $mod+Shift+$ws7_key move container to workspace number $ws7
-bindsym $mod+Shift+$ws8_key move container to workspace number $ws8
-bindsym $mod+Shift+$ws9_key move container to workspace number $ws9
-bindsym $mod+Shift+$ws10_key move container to workspace number $ws10
+bindsym $mod+Shift+$ws1_key move container to workspace  $ws1
+bindsym $mod+Shift+$ws2_key move container to workspace  $ws2
+bindsym $mod+Shift+$ws3_key move container to workspace  $ws3
+bindsym $mod+Shift+$ws4_key move container to workspace  $ws4
+bindsym $mod+Shift+$ws5_key move container to workspace  $ws5
+bindsym $mod+Shift+$ws6_key move container to workspace  $ws6
+bindsym $mod+Shift+$ws7_key move container to workspace  $ws7
+bindsym $mod+Shift+$ws8_key move container to workspace  $ws8
+bindsym $mod+Shift+$ws9_key move container to workspace  $ws9
+bindsym $mod+Shift+$ws10_key move container to workspace  $ws10
 ## Modify // Move Window to Workspace 11 - 19// <><Ctrl><Shift> 1..9 ##
-bindsym $mod+Shift+Ctrl+$ws1_key move container to workspace number $ws11
-bindsym $mod+Shift+Ctrl+$ws2_key move container to workspace number $ws12
-bindsym $mod+Shift+Ctrl+$ws3_key move container to workspace number $ws13
-bindsym $mod+Shift+Ctrl+$ws4_key move container to workspace number $ws14
-bindsym $mod+Shift+Ctrl+$ws5_key move container to workspace number $ws15
-bindsym $mod+Shift+Ctrl+$ws6_key move container to workspace number $ws16
-bindsym $mod+Shift+Ctrl+$ws7_key move container to workspace number $ws17
-bindsym $mod+Shift+Ctrl+$ws8_key move container to workspace number $ws18
-bindsym $mod+Shift+Ctrl+$ws9_key move container to workspace number $ws19
+bindsym $mod+Shift+Ctrl+$ws1_key move container to workspace  $ws11
+bindsym $mod+Shift+Ctrl+$ws2_key move container to workspace  $ws12
+bindsym $mod+Shift+Ctrl+$ws3_key move container to workspace  $ws13
+bindsym $mod+Shift+Ctrl+$ws4_key move container to workspace  $ws14
+bindsym $mod+Shift+Ctrl+$ws5_key move container to workspace  $ws15
+bindsym $mod+Shift+Ctrl+$ws6_key move container to workspace  $ws16
+bindsym $mod+Shift+Ctrl+$ws7_key move container to workspace  $ws17
+bindsym $mod+Shift+Ctrl+$ws8_key move container to workspace  $ws18
+bindsym $mod+Shift+Ctrl+$ws9_key move container to workspace  $ws19
 
 ## Modify // Move Window to Next Free Workspace // <><Shift> ` ##
 set_from_resource $i3-wm.binding.move_next_free i3-wm.binding.move_next_free Shift+grave
@@ -316,26 +316,26 @@ bindsym $mod+$i3-wm.binding.move_next_free exec --no-startup-id /usr/bin/i3-next
 
 # move focused container to workspace, move to workspace
 ## Modify // Carry Window to Workspace 1 - 10// <><Alt> 0..9 ##
-bindsym $mod+$alt+$ws1_key move container to workspace number $ws1; workspace number $ws1
-bindsym $mod+$alt+$ws2_key move container to workspace number $ws2; workspace number $ws2
-bindsym $mod+$alt+$ws3_key move container to workspace number $ws3; workspace number $ws3
-bindsym $mod+$alt+$ws4_key move container to workspace number $ws4; workspace number $ws4
-bindsym $mod+$alt+$ws5_key move container to workspace number $ws5; workspace number $ws5
-bindsym $mod+$alt+$ws6_key move container to workspace number $ws6; workspace number $ws6
-bindsym $mod+$alt+$ws7_key move container to workspace number $ws7; workspace number $ws7
-bindsym $mod+$alt+$ws8_key move container to workspace number $ws8; workspace number $ws8
-bindsym $mod+$alt+$ws9_key move container to workspace number $ws9; workspace number $ws9
-bindsym $mod+$alt+$ws10_key move container to workspace number $ws10; workspace number $ws10
+bindsym $mod+$alt+$ws1_key move container to workspace  $ws1; workspace  $ws1
+bindsym $mod+$alt+$ws2_key move container to workspace  $ws2; workspace  $ws2
+bindsym $mod+$alt+$ws3_key move container to workspace  $ws3; workspace  $ws3
+bindsym $mod+$alt+$ws4_key move container to workspace  $ws4; workspace  $ws4
+bindsym $mod+$alt+$ws5_key move container to workspace  $ws5; workspace  $ws5
+bindsym $mod+$alt+$ws6_key move container to workspace  $ws6; workspace  $ws6
+bindsym $mod+$alt+$ws7_key move container to workspace  $ws7; workspace  $ws7
+bindsym $mod+$alt+$ws8_key move container to workspace  $ws8; workspace  $ws8
+bindsym $mod+$alt+$ws9_key move container to workspace  $ws9; workspace  $ws9
+bindsym $mod+$alt+$ws10_key move container to workspace  $ws10; workspace  $ws10
 ## Modify // Carry Window to Workspace 11 - 19 // <><Alt><Ctrl> 1..9 ##
-bindsym $mod+$alt+Ctrl+$ws1_key move container to workspace number $ws11; workspace number $ws11
-bindsym $mod+$alt+Ctrl+$ws2_key move container to workspace number $ws12; workspace number $ws12
-bindsym $mod+$alt+Ctrl+$ws3_key move container to workspace number $ws13; workspace number $ws13
-bindsym $mod+$alt+Ctrl+$ws4_key move container to workspace number $ws14; workspace number $ws14
-bindsym $mod+$alt+Ctrl+$ws5_key move container to workspace number $ws15; workspace number $ws15
-bindsym $mod+$alt+Ctrl+$ws6_key move container to workspace number $ws16; workspace number $ws16
-bindsym $mod+$alt+Ctrl+$ws7_key move container to workspace number $ws17; workspace number $ws17
-bindsym $mod+$alt+Ctrl+$ws8_key move container to workspace number $ws18; workspace number $ws18
-bindsym $mod+$alt+Ctrl+$ws9_key move container to workspace number $ws19; workspace number $ws19
+bindsym $mod+$alt+Ctrl+$ws1_key move container to workspace  $ws11; workspace  $ws11
+bindsym $mod+$alt+Ctrl+$ws2_key move container to workspace  $ws12; workspace  $ws12
+bindsym $mod+$alt+Ctrl+$ws3_key move container to workspace  $ws13; workspace  $ws13
+bindsym $mod+$alt+Ctrl+$ws4_key move container to workspace  $ws14; workspace  $ws14
+bindsym $mod+$alt+Ctrl+$ws5_key move container to workspace  $ws15; workspace  $ws15
+bindsym $mod+$alt+Ctrl+$ws6_key move container to workspace  $ws16; workspace  $ws16
+bindsym $mod+$alt+Ctrl+$ws7_key move container to workspace  $ws17; workspace  $ws17
+bindsym $mod+$alt+Ctrl+$ws8_key move container to workspace  $ws18; workspace  $ws18
+bindsym $mod+$alt+Ctrl+$ws9_key move container to workspace  $ws19; workspace  $ws19
 
 ## Modify // Carry Window to Next Free Workspace // <><Alt> ` ##
 set_from_resource $i3-wm.binding.take_next_free i3-wm.binding.take_next_free Mod1+grave
@@ -619,28 +619,28 @@ set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
 # i3xrocks config file. Override this for a custom status bar generator.
 set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3xrocks -u ~/.config/regolith/i3xrocks/conf.d -d /etc/regolith/i3xrocks/conf.d
 
-# The bar configuration
-bar {
-  position $i3-wm.bar.position
-  mode $i3-wm.bar.mode
-  font $i3-wm.bar.font
-  separator_symbol $i3-wm.bar.separator
-  status_command $i3-wm.bar.status_command
-  tray_output $i3-wm.bar.trayoutput
-  strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers
-
-  colors {
-      background $i3-wm.bar.background.color
-      statusline $i3-wm.bar.statusline.color
-      separator  $i3-wm.bar.separator.color
-
-#                        BORDER  BACKGROUND TEXT
-      focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
-      active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
-      inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
-      urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
-  }
-}
+## The bar configuration
+#bar {
+#  position $i3-wm.bar.position
+#  mode $i3-wm.bar.mode
+#  font $i3-wm.bar.font
+#  separator_symbol $i3-wm.bar.separator
+#  status_command $i3-wm.bar.status_command
+#  tray_output $i3-wm.bar.trayoutput
+#  strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers
+#
+#  colors {
+#      background $i3-wm.bar.background.color
+#      statusline $i3-wm.bar.statusline.color
+#      separator  $i3-wm.bar.separator.color
+#
+##                        BORDER  BACKGROUND TEXT
+#      focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
+#      active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
+#      inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
+#      urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
+#  }
+#}
 
 ###############################################################################
 # External programs launched with i3
@@ -687,21 +687,23 @@ set $primaryMonitor HDMI-2
 set $verticalMonitor DP-1
 
 workspace "$ws1" output $primaryMonitor
-workspace "$ws2" output $verticalMonitor
+workspace "$ws2" output $primaryMonitor
 workspace "$ws3" output $primaryMonitor
-workspace "$ws4" output $verticalMonitor
+workspace "$ws4" output $primaryMonitor
 workspace "$ws5" output $primaryMonitor
-workspace "$ws6" output $verticalMonitor
-workspace "$ws7" output $primaryMonitor
+workspace "$ws6" output $primaryMonitor
+workspace "$ws7" output $verticalMonitor
 workspace "$ws8" output $verticalMonitor
-workspace "$ws9" output $primaryMonitor
+workspace "$ws9" output $verticalMonitor
+workspace "$ws10" output $verticalMonitor
 
 # Assing specific apps to specific workspace
 assign [class="Brave|brave"]          → "$ws1"
-assign [class="IDEA|idea"]            → "$ws1"
-assign [class="Godot|godot"]          → "$ws1"
+assign [class="IDEA|idea"]            → "$ws2"
+assign [class="Godot|godot"]          → "$ws2"
+assign [class="Code|code"]            → "$ws2"
 assign [class="Skype|skype"]          → "$ws3"
-assign [class="Alacritty|alacritty"]  → "$ws2"
+assign [class="Alacritty|alacritty"]  → "$ws7"
 assign [class="Spotify|spotify"]      → "$ws9"
 for_window [class="Spotify"] move to workspace "$ws9"
 

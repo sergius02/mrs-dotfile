@@ -3,3 +3,15 @@ i3-wm.bar.position:	top
 
 # Apps border
 i3-wm.client.focused.color.child_border:	#50fa7b
+
+# Workspaces
+i3-wm.workspace.01.name: 1:Web
+i3-wm.workspace.02.name: 2:Code
+i3-wm.workspace.03.name: 3:Comm
+i3-wm.workspace.04.name: 4:Extra
+i3-wm.workspace.05.name: 5:Extra
+i3-wm.workspace.06.name: 6:Extra
+i3-wm.workspace.07.name: 7:Terminal
+i3-wm.workspace.08.name: 8:Terminal
+i3-wm.workspace.09.name: 9:Extra
+i3-wm.workspace.10.name: 10:Extra

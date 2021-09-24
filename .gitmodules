@@ -29,3 +29,6 @@
 [submodule "desktop/applications/ulauncher/dracula-theme"]
 	path = desktop/applications/ulauncher/dracula-theme
 	url = https://github.com/dracula/ulauncher.git
+[submodule "desktop/applications/polybar-themes"]
+	path = desktop/applications/polybar-themes
+	url = https://github.com/adi1090x/polybar-themes.git

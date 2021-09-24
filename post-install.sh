@@ -24,3 +24,7 @@ sudo update-desktop-database
 sudo mkdir -p /usr/local/share/man/man1
 gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
 
+# Polybar themes
+cd $HOME/.dotfiles/desktop/applications/polybar-themes
+sudo chmod +x setup.sh && ./setup.sh
+
