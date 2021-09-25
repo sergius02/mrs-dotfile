@@ -699,6 +699,7 @@ workspace "$ws10" output $verticalMonitor
 
 # Assing specific apps to specific workspace
 assign [class="Brave|brave"]          → "$ws1"
+assign [class="Firefox|firefox"]      → "$ws1"
 assign [class="IDEA|idea"]            → "$ws2"
 assign [class="Godot|godot"]          → "$ws2"
 assign [class="Code|code"]            → "$ws2"
