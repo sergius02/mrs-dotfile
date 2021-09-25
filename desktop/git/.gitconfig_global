@@ -1,0 +1,7 @@
+[user]
+	name = Sergio Fernández Celorio
+	email = scelorio1990@gmail.com
+[core]
+	autocrlf = input
+[includeIf "gitdir:/home/sergio/Arvo/"]
+  path = /home/sergio/Arvo/.gitconfig

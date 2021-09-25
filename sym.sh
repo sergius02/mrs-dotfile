@@ -38,3 +38,7 @@ ln -s $HOME/.dotfiles/desktop/applications/ulauncher/dracula-theme $HOME/.config
 # Polybar
 ln -fs .dotfiles/desktop/applications/polybar-config/config.ini .config/polybar/panels
 ln -fs .dotfiles/desktop/applications/polybar-config/launch.sh .config/polybar/
+
+# Git config
+ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_global $HOME/.gitconfig
+ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_arvo $HOME/Arvo/.gitconfig
