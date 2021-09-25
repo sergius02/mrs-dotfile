@@ -36,8 +36,8 @@ mkdir -p $HOME/.config/ulauncher/user-themes
 ln -s $HOME/.dotfiles/desktop/applications/ulauncher/dracula-theme $HOME/.config/ulauncher/user-themes/dracula-ulauncher
 
 # Polybar
-ln -fs .dotfiles/desktop/applications/polybar-config/config.ini .config/polybar/panels
-ln -fs .dotfiles/desktop/applications/polybar-config/launch.sh .config/polybar/
+ln -fs $HOME/.dotfiles/desktop/applications/polybar-config/config.ini $HOME/.config/polybar/panels
+ln -fs $HOME/.dotfiles/desktop/applications/polybar-config/launch.sh $HOME/.config/polybar/
 
 # Git config
 ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_global $HOME/.gitconfig
