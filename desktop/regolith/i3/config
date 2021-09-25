@@ -681,7 +681,6 @@ exec --no-startup-id $i3-wm.program.3
 # MY CONFIGS
 bindsym $mod+Shift+g exec --no-startup-id rofi -modi "gitmofi:gitmofi" -font "NotoSans Nerd Font 11" -show gitmofi
 bindsym $mod+$i3-wm.binding.terminal exec /home/sergio/.local/bin/alacritty
-bindsym $mod+space exec ulauncher
 
 set $primaryMonitor HDMI-2
 set $verticalMonitor DP-1
@@ -713,3 +712,5 @@ for_window [class="Telegram|telegram"] floating enable
 for_window [class="Bitwarden|bitwarden"] floating enable
 for_window [class="GDebi|gdebi"] floating enable
 for_window [class="Ulauncher|ulauncher"] floating enable
+
+exec_always --no-startup-id /home/sergio/.config/polybar/launch.sh --panels
