@@ -42,3 +42,6 @@ ln -fs $HOME/.dotfiles/desktop/applications/polybar-config/launch.sh $HOME/.conf
 # Git config
 ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_global $HOME/.gitconfig
 ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_arvo $HOME/Arvo/.gitconfig
+
+# Regolith background
+sudo ln -fs $HOME/.dotfiles/desktop/regolith/backgrounds/regolith-dracula.png /usr/share/backgrounds

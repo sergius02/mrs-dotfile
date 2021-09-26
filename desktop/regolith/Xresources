@@ -15,3 +15,6 @@ i3-wm.workspace.07.name: 7:Terminal
 i3-wm.workspace.08.name: 8:Terminal
 i3-wm.workspace.09.name: 9:Extra
 i3-wm.workspace.10.name: 10:Extra
+
+# Wallpaper
+gnome.wallpaper: /usr/share/backgrounds/regolith-dracula.png
