@@ -41,3 +41,6 @@ ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_arvo $HOME/Arvo/.gitconfig
 
 # Regolith background
 sudo ln -fs $HOME/.dotfiles/desktop/regolith/backgrounds/regolith-dracula.png /usr/share/backgrounds
+
+# Ranger file manager config
+ln -fs $HOME/.dotfiles/desktop/applications/ranger $HOME/.config/ranger
