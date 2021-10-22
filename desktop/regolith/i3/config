@@ -434,7 +434,7 @@ bindsym $mod+$i3-wm.binding.sound exec $i3-wm.program.sound
 
 ## Launch // File Browser // <><Shift> n ##
 set_from_resource $i3-wm.binding.files i3-wm.binding.files Shift+n
-set_from_resource $i3-wm.program.files i3-wm.program.files /usr/bin/nautilus --new-window
+set_from_resource $i3-wm.program.files i3-wm.program.files alacritty -e ranger
 bindsym $mod+$i3-wm.binding.files exec $i3-wm.program.files
 
 ## Launch // Notification Viewer // <> n ##
