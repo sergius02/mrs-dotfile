@@ -17,9 +17,9 @@ launch_bar() {
 	elif [[ "$style" == "pwidgets" ]]; then
 		bash "$dir"/pwidgets/launch.sh --main
 	else
-		MONITOR=HDMI-2 polybar -q main -c "$dir/$style/config.ini" &	
-		MONITOR=eDP-1 polybar -q secondary -c "$dir/$style/config.ini" &	
-		MONITOR=DP-1 polybar -q laptopscreen -c "$dir/$style/config.ini" &	
+		MONITOR=HDMI-1-2 polybar -q main -c "$dir/$style/config.ini" &	
+		MONITOR=eDP-1-1 polybar -q secondary -c "$dir/$style/config.ini" &	
+		MONITOR=DP-1-1 polybar -q laptopscreen -c "$dir/$style/config.ini" &	
 	fi
 }
 
