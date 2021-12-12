@@ -1,6 +1,3 @@
-[submodule "modules/fzf"]
-	path = modules/fzf
-	url = https://github.com/junegunn/fzf.git
 [submodule "shells/zsh/themes/dracula-zsh"]
 	path = shells/zsh/themes/dracula-zsh
 	url = https://github.com/dracula/zsh.git
