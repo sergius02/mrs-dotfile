@@ -24,6 +24,9 @@ sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt 
 
 # Polybar
 sudo apt install polybar
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # SpaceVim
 curl -sLf https://spacevim.org/install.sh | bash
 
