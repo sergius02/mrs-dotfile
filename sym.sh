@@ -1,7 +1,9 @@
 #!/bin/bash
 
+mkdir -p $HOME/.npm-packages
 ln -fs $HOME/.dotfiles/shells/zsh/.zshrc $HOME/.zshrc
 ln -fs $HOME/.dotfiles/shells/zsh/.fzf.zsh $HOME/.fzf.zsh
+ln -fs $HOME/.dotfiles/shells/npm/.npmrc $HOME/.npmrc
 
 # ZSH stuff
 ln -fs $HOME/.dotfiles/shells/zsh/themes/dracula-zsh/dracula.zsh-theme $HOME/.oh-my-zsh/themes/dracula.zsh-theme
