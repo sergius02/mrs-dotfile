@@ -32,3 +32,7 @@ sudo chmod +x setup.sh
 # Spaceship prompt for ZSH
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+# Some Picom tweaks
+sudo cp /etc/regolith/picom/config /etc/regolith/picom/config_old
+sudo cp $HOME/.dotfiles/desktop/regolith/picom/config /etc/regolith/picom/config
