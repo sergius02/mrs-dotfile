@@ -1,6 +1,3 @@
-[submodule "desktop/themes/dracula-theme"]
-	path = desktop/themes/dracula-theme
-	url = https://github.com/dracula/gtk.git
 [submodule "desktop/applications/polybar/scripts/polybar-scripts"]
 	path = desktop/applications/polybar/scripts/polybar-scripts
 	url = https://github.com/polybar/polybar-scripts.git
