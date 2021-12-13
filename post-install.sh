@@ -27,5 +27,5 @@ gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz 
 
 # Polybar themes
 cd $HOME/.dotfiles/desktop/applications/polybar-themes
-sudo chmod +x setup.sh && ./setup.sh
+sudo chmod +x setup.sh
 
