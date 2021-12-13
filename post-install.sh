@@ -29,3 +29,6 @@ gzip -c extra/alacritty.man | sudo tee /usr/local/share/man/man1/alacritty.1.gz 
 cd $HOME/.dotfiles/desktop/applications/polybar-themes
 sudo chmod +x setup.sh
 
+# Spaceship prompt for ZSH
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
