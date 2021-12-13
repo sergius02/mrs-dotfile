@@ -10,9 +10,6 @@
 [submodule "desktop/applications/polybar/scripts/polybar-scripts"]
 	path = desktop/applications/polybar/scripts/polybar-scripts
 	url = https://github.com/polybar/polybar-scripts.git
-[submodule "modules/spaceship-prompt"]
-	path = modules/spaceship-prompt
-	url = https://github.com/denysdovhan/spaceship-prompt.git
 [submodule "terminals/alacritty/themes/alacritty-dracula-theme"]
 	path = terminals/alacritty/themes/alacritty-dracula-theme
 	url = https://github.com/dracula/alacritty.git
