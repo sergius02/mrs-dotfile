@@ -24,6 +24,9 @@ sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt 
 
 # Polybar
 sudo apt install polybar
+# SpaceVim
+curl -sLf https://spacevim.org/install.sh | bash
+
 # Ranger file manager
 git clone https://github.com/ranger/ranger.git $HOME/Programas/ranger
 cd $HOME/Programas/ranger
