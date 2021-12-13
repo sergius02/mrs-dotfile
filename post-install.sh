@@ -3,6 +3,7 @@
 bash modules/fzf/install
 
 regolith-look set dracula
+regolith-look refresh
 
 # Alacritty build
 mkdir -p $HOME/Programas
