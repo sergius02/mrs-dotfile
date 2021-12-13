@@ -10,7 +10,8 @@ ln -fs $HOME/.dotfiles/shells/zsh/themes/dracula-zsh/dracula.zsh-theme $HOME/.oh
 ln -fs $HOME/.dotfiles/shells/zsh/plugins/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 # Alacritty
-ln -fs $HOME/.dotfiles/terminals/alacritty $HOME/.config/
+mkdir -p $HOME/.config/alacritty
+ln -fs $HOME/.dotfiles/terminals/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
 # Polybar
 ln -fs $HOME/.dotfiles/desktop/applications/polybar $HOME/.config/
