@@ -1,6 +1,6 @@
-#!/bin/bash
-
-bash modules/fzf/install
+#####################################
+# Execute some post-install process #
+#####################################
 
 regolith-look set dracula
 regolith-look refresh
