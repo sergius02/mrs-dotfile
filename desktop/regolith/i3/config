@@ -679,7 +679,6 @@ exec --no-startup-id $i3-wm.program.3
 
 
 # MY CONFIGS
-bindsym $mod+Shift+g exec --no-startup-id rofi -modi "gitmofi:gitmofi" -font "NotoSans Nerd Font 11" -show gitmofi
 bindsym $mod+$i3-wm.binding.terminal exec /home/sergio/.local/bin/alacritty
 
 set $primaryMonitor HDMI-1-2
