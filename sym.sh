@@ -3,6 +3,9 @@
 mkdir -p $HOME/.npm-packages
 ln -fs $HOME/.dotfiles/shells/zsh/.zshrc $HOME/.zshrc
 ln -fs $HOME/.dotfiles/shells/zsh/.fzf.zsh $HOME/.fzf.zsh
+
+# NPM packages folder to user home
+mkdir -p $HOME/.npm-packages
 ln -fs $HOME/.dotfiles/shells/npm/.npmrc $HOME/.npmrc
 
 # ZSH stuff
