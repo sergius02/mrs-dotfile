@@ -17,7 +17,7 @@ ln -fs $HOME/.dotfiles/terminals/alacritty/alacritty.yml $HOME/.config/alacritty
 ln -fs $HOME/.dotfiles/desktop/applications/polybar $HOME/.config/
 
 # IdeaVIM
-ln -fs $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/
+ln -fs $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/.ideavimrc
 
 # Spaceship prompt for ZSH
 ln -fs $HOME/.dotfiles/modules/spaceship-prompt/spaceship.zsh-theme $HOME/.oh-my-zsh/custom/themes
