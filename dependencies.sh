@@ -1,3 +1,7 @@
+############################
+# Install the dependencies #
+############################
+
 # Things i need
 sudo apt install -y git openjdk-8-jre openjdk-8-jdk neovim postgresql python3 python3-pip wget exa telegram-desktop regolith-look-dracula cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 zsh
 
@@ -21,12 +25,30 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Ulauncher
 sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
+mkdir -p $HOME/.config/ulauncher/user-themes
+git clone https://github.com/dracula/ulauncher.git $HOME/.config/ulauncher/user-themes/dracula-ulauncher
 
 # Polybar
 sudo apt install -y polybar
 
+# Polybar-themes!
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git $HOME/.local/share/polybar-themes
+cd $HOME/.local/share/polybar-themes
+sudo chmod +x setup.sh && ./setup.sh
+
 # Oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Spaceship prompt for ZSH
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# fzf everywhere!
+git clone --depth 1 https://github.com/junegunn/fzf.git $HOME/.fzf
+$HOME/.fzf/install
 
 # SpaceVim
 curl -sLf https://spacevim.org/install.sh | bash
