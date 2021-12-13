@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sh modules/fzf/install
+bash modules/fzf/install
 
 regolith-look set dracula
 
