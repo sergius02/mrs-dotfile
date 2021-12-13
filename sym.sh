@@ -30,8 +30,8 @@ ln -fs $HOME/.dotfiles/desktop/regolith/i3/config $HOME/.config/regolith/i3/conf
 ln -fs $HOME/.dotfiles/desktop/regolith/Xresources $HOME/.config/regolith/Xresources
 
 # Polybar
-ln -fs $HOME/.dotfiles/desktop/applications/polybar-config/config.ini $HOME/.config/polybar/panels
-ln -fs $HOME/.dotfiles/desktop/applications/polybar-config/launch.sh $HOME/.config/polybar/
+ln -fs $HOME/.dotfiles/desktop/applications/polybar/config.ini $HOME/.config/polybar/panels/config.ini
+ln -fs $HOME/.dotfiles/desktop/applications/polybar/launch.sh $HOME/.config/polybar/launch.sh
 
 # Git config
 ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_global $HOME/.gitconfig

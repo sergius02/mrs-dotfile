@@ -681,8 +681,8 @@ exec --no-startup-id $i3-wm.program.3
 # MY CONFIGS
 bindsym $mod+$i3-wm.binding.terminal exec /home/sergio/.local/bin/alacritty
 
-set $primaryMonitor HDMI-1-2
-set $verticalMonitor DP-1-1
+set $primaryMonitor DisplayPort-3
+set $verticalMonitor DisplayPort-2
 
 workspace "$ws1" output $primaryMonitor
 workspace "$ws2" output $primaryMonitor
