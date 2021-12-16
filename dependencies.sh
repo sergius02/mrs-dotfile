@@ -93,3 +93,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 mkdir -p $HOME/.npm-packages
 curl -sfLS install-node.vercel.app/lts | bash -s -- --prefix=$HOME/.npm-packages
+
+# Installing Vala
+sudo add-apt-repository ppa:vala-team
+sudo apt install software-properties-common
+sudo apt update
+sudo apt install valac
