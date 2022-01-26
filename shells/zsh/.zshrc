@@ -102,7 +102,6 @@ fi
 
 # Better ls
 alias l='exa --long --header --icons'
-alias ls='exa --long --header --icons'
 alias la='exa --long --header --icons -a'
 alias lt='exa --tree --level=2 --icons'
 alias lta='exa --tree --level=2 --icons -a'
