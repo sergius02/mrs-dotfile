@@ -37,3 +37,6 @@ ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_arvo $HOME/Arvo/.gitconfig
 
 # Ranger file manager config
 ln -fs $HOME/.dotfiles/desktop/applications/ranger $HOME/.config/ranger
+
+# Other configs
+sudo ln -fs $HOME/.dotfiles/others/maven/settings.xml /opt/maven/conf/settings.xml
