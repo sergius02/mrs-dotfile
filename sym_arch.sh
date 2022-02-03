@@ -26,7 +26,7 @@ ln -fs $HOME/.dotfiles/editors/nvim $HOME/.config/nvim
 ln -fs $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/.ideavimrc
 
 # Spaceship prompt for ZSH
-ln -fs $HOME/.dotfiles/modules/spaceship-prompt/spaceship.zsh-theme $HOME/.oh-my-zsh/custom/themes
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 # Git config
 ln -fs $HOME/.dotfiles/desktop/git/.gitconfig_global $HOME/.gitconfig
