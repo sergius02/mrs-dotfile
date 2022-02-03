@@ -19,8 +19,8 @@ ln -fs $HOME/.dotfiles/shells/npm/.npmrc $HOME/.npmrc
 mkdir -p $HOME/.config/alacritty
 ln -fs $HOME/.dotfiles/terminals/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
-# IdeaVIM
-ln -fs $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/.ideavimrc
+# Neovim configs
+ln -fs $HOME/.dotfiles/editors/nvim $HOME/.config/nvim
 
 # IdeaVIM
 ln -fs $HOME/.dotfiles/editors/intellij/.ideavimrc $HOME/.ideavimrc
