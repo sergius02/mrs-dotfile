@@ -7,6 +7,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth 1 https://github.com/junegunn/fzf.git $HOME/.fzf
 
+# Spaceship prompt for ZSH
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
 # Dracula theme for alacritty
 mkdir -p $HOME/.config/alacritty/themes
 wget https://raw.githubusercontent.com/dracula/alacritty/master/dracula.yml -O $HOME/.config/alacritty/themes/dracula.yml
