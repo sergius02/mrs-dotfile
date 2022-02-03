@@ -6,6 +6,8 @@
 
 # EndeavourOS stuff
 ln -fs $HOME/.dotfiles/desktop/endeavouros/i3/config $HOME/.config/i3/config
+ln -fs $HOME/.dotfiles/desktop/endeavouros/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
+ln -fs $HOME/.dotfiles/desktop/endeavouros/i3/scripts $HOME/.config/i3/scripts
 
 # ZSH stuff
 ln -fs $HOME/.dotfiles/shells/zsh/.zshrc $HOME/.zshrc
