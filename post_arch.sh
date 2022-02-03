@@ -7,3 +7,8 @@ echo "export PATH=\"/home/sergio/.local/bin:\$PATH\"" | sudo tee -a /etc/profile
 
 # NPM dependencies
 npm install -g pyright yarn pm2 vue@next @angular/cli typescript typescript-language-server docker-langserver angular-language-server
+
+# Some PostgreSQL initial configurations
+sudo passwd postgres
+su - postgres -c "initdb --locale en_US.UTF-8 -D '/var/lib/postgres/data'"
+su - postgres -c "psql -c \"CREATE ROLE sergio SUPERUSER LOGIN PASSWORD 'postgres'\""
