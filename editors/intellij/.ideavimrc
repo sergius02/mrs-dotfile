@@ -1,11 +1,52 @@
-
 set number relativenumber
+set ideajoin
+set surround
+set multiple-cursors
+set commentary
+
+set scrolloff=5
+set incsearch
+
+let mapleader = " "
 
 nnoremap / :action Find<cr>
 nnoremap g/ /
 
-nnoremap <space>i :action GotoImplementation<cr>
-nnoremap <space>s :action GotoSuperMethod<cr>
-nnoremap <space>u :action FindUsages<cr>
+" Go to shortcuts
+nnoremap <leader>gi :action GotoImplementation<cr>
+nnoremap <leader>gs :action GotoSuperMethod<cr>
+nnoremap <leader>u :action FindUsages<cr>
 
-nnoremap <space>rr :action RenameElement<cr>
+" Documentation, info and errors
+nnoremap <leader>md :action QuickJavaDoc<cr>
+nnoremap <leader>me :action ShowErrorDescription<cr>
+
+" Move in IntelliJ
+nnoremap <leader>l :action NextTab<cr>
+nnoremap <leader>h :action PreviousTab<cr>
+
+" Some run/debug actions
+nnoremap <leader>rr :action Run<cr>
+nnoremap <leader>rd :action Debug<cr>
+nnoremap <leader>rs :action ToggleLineBreakpoint<cr>
+
+" Breakpoints stuff
+nnoremap <leader>ba :action ToggleLineBreakpoint<cr>
+nnoremap <leader>bra :action Debugger.RemoveAllBreakpoints<cr>
+nnoremap <leader>brf :action Debugger.RemoveAllBreakpointsInFile<cr>
+nnoremap <leader>bv :action ViewBreakpoints<cr>
+
+" Git stuff
+nnoremap <leader>gs :action Git.Commit.Stage<cr>
+
+" Editor and refactoring stuff
+nnoremap <leader>er :action RenameElement<cr>
+nnoremap <leader>ee :action ExtractMethod<cr>
+
+" Move through IntelliJ windows
+nnoremap <leader>ws :action ActivateServicesToolWindow<cr>
+nnoremap <leader>wr :action ActivateRunToolWindow<cr>
+
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
