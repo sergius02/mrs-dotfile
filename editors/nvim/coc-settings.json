@@ -3,6 +3,20 @@
       "vala": {
         "command": "vala-language-server",
         "filetypes": ["vala"]
+      },
+      "bash": {
+          "command": "bash-language-server",
+          "args": ["start"],
+          "filetypes": ["sh"],
+          "ignoredRootPaths": ["~"]
       }
-    }
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/usr/lib/jvm/java-11-openjdk",
+            "default": true
+
+        }
+    ]
 }

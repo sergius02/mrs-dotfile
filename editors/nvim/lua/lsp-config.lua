@@ -31,7 +31,7 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'angularls', 'dockerls', 'jdtls', 'vala_ls' }
+local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'angularls', 'dockerls', 'jdtls', 'vala_ls', 'bashls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
     on_attach = on_attach,
@@ -52,5 +52,24 @@ require'lspconfig'.volar.setup {
         typescript = {
           serverPath = '/home/sergio/.npm-packages/lib/node_modules/typescript/lib/tsserverlibrary.js'
         }
+    }
+}
+
+require'lspconfig'.jdtls.setup {
+    cmd = {
+        '/lib/jvm/java-11-openjdk/bin/java',
+        "-Xmx2G",
+        '-Declipse.application=org.eclipse.jdt.ls.core.id1',
+        '-Dosgi.bundles.defaultStartLevel=4',
+        '-Declipse.product=org.eclipse.jdt.ls.core.product',
+        '-Dlog.protocol=true',
+        '-Dlog.level=ALL',
+        '-Xms1g',
+        '--add-modules=ALL-SYSTEM',
+        '--add-opens', 'java.base/java.util=ALL-UNNAMED',
+        '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
+        '-jar', '/home/sergio/.config/nvim/jdt/jdt-server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar',
+        '-configuration', '/home/sergio/.config/nvim/jdt/jdt-server/config_linux',
+        '-data', "/home/.config/nvim/jdt/workspace",
     }
 }
