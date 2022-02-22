@@ -2,3 +2,5 @@
 editors/nvim/plugged/
 
 desktop/applications/ranger/plugins/__pycache__/
+
+*.log
