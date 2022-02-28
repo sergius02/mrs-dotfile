@@ -47,6 +47,11 @@ nnoremap <leader>ee :action ExtractMethod<cr>
 nnoremap <leader>ws :action ActivateServicesToolWindow<cr>
 nnoremap <leader>wr :action ActivateRunToolWindow<cr>
 
+" AceJump config
+map <leader>f :action AceAction<CR>
+map <leader>F :action AceTargetAction<CR>
+map <leader>g :action AceLineAction<CR>
+
 set NERDTree
 let g:NERDTreeMapActivateNode='l'
 let g:NERDTreeMapJumpParent='h'
