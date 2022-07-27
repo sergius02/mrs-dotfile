@@ -1,6 +1,6 @@
 sudo pacman -Syu
 
-yay -S neovim jdk8-openjdk jdk11-openjdk postgresql python3 wget exa telegram-desktop cmake zsh gnome-boxes remmina remmina-plugin-rdesktop jetbrains-toolbox brave-nightly-bin rustup alacritty ranger docker docker-compose vala bitwarden bitwarden-cli gnome-disk-utility nextcloud-client dracula-gtk-theme pamac-all spotify rofimoji noto-fonts-emoji xclip xdotool appimagelauncher gucharmap btop virtualbox gnome-keyring visual-studio-code-bin maven ant discord thunderbird thunderbird-i18n-es-es debtap postman-bin nerd-fonts-cascadia-code gitkraken rust-analyzer vala-language-server runjs-bin the_silver_searcher flatpak-builder
+yay -S neovim jdk8-openjdk jdk11-openjdk postgresql python3 wget exa telegram-desktop cmake zsh gnome-boxes remmina remmina-plugin-rdesktop jetbrains-toolbox brave-nightly-bin rustup alacritty ranger docker docker-compose vala bitwarden bitwarden-cli gnome-disk-utility nextcloud-client dracula-gtk-theme pamac-all spotify rofimoji noto-fonts-emoji xclip xdotool appimagelauncher gucharmap btop virtualbox gnome-keyring visual-studio-code-bin maven ant discord thunderbird thunderbird-i18n-es-es debtap postman-bin nerd-fonts-cascadia-code gitkraken rust-analyzer vala-language-server runjs-bin the_silver_searcher flatpak-builder xcolor
 
 # Oh my ZSH
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
