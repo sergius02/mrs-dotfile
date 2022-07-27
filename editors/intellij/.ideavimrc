@@ -15,7 +15,7 @@ nnoremap g/ /
 " Go to shortcuts
 nnoremap <leader>gi :action GotoImplementation<cr>
 nnoremap <leader>gs :action GotoSuperMethod<cr>
-nnoremap <leader>u :action FindUsages<cr>
+nnoremap <leader>gu :action FindUsages<cr>
 
 " Documentation, info and errors
 nnoremap <leader>md :action QuickJavaDoc<cr>
@@ -42,6 +42,7 @@ nnoremap <leader>gs :action Git.Commit.Stage<cr>
 " Editor and refactoring stuff
 nnoremap <leader>er :action RenameElement<cr>
 nnoremap <leader>ee :action ExtractMethod<cr>
+nnoremap <leader>et :action SurroundWith<cr>
 
 " Move through IntelliJ windows
 nnoremap <leader>ws :action ActivateServicesToolWindow<cr>

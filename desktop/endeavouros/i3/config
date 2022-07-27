@@ -268,7 +268,7 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 #
 
 # Monitors layout
-#exec --no-startup-id "sh -c 'sleep 2; exec ~/.screenlayout/monitor.sh; sleep 2; nitrogen --restore'"
+exec --no-startup-id "sh -c 'sleep 2; exec ~/.screenlayout/monitor.sh; sleep 2; nitrogen --restore'"
 
 #########
 # Binds #
@@ -285,7 +285,7 @@ bindsym $mod+t exec rofi -show window \
 		-config ~/.config/rofi/rofidmenu.rasi
 
 bindsym $mod+p exec \
-        ls ~/Arvo/Proyectos | \
+        arvo list | \
         rofi -show -dmenu -i -config ~/.config/rofi/rofidmenu.rasi | \
         xargs -I_ idea ~/Arvo/Proyectos/_
 
@@ -309,43 +309,43 @@ bindsym Print exec "scrot ~/%Y-%m-%d-%T-screenshot.png"
 # configuration for workspace behaviour: #
 ##########################################
 
-set $primaryMonitor "DisplayPort-3"
-set $verticalMonitor "DisplayPort-2"
+set $primaryMonitor "DisplayPort-2"
+set $verticalMonitor "DisplayPort-4"
 
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
+set $ws1 "1: "
+set $ws2 "2: "
+set $ws3 "3: "
 set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
-set $ws7 "7: "
-set $ws8 "8: "
-set $ws9 "9: "
+set $ws7 "7: "
+set $ws8 "8: "
+set $ws9 "9: "
 set $ws10 "10: "
 
-workspace $ws1 output $primaryMonitor
-workspace $ws2 output $primaryMonitor
-workspace $ws3 output $primaryMonitor
-workspace $ws4 output $primaryMonitor
-workspace $ws5 output $primaryMonitor
-workspace $ws6 output $primaryMonitor
-workspace $ws7 output $verticalMonitor
-workspace $ws8 output $verticalMonitor
-workspace $ws9 output $verticalMonitor
-workspace $ws10 output $verticalMonitor
+workspace $ws1 output $verticalMonitor
+workspace $ws2 output $verticalMonitor
+workspace $ws3 output $verticalMonitor
+workspace $ws4 output $verticalMonitor
+workspace $ws5 output $verticalMonitor
+workspace $ws6 output $verticalMonitor
+workspace $ws7 output $primaryMonitor
+workspace $ws8 output $primaryMonitor
+workspace $ws9 output $primaryMonitor
+workspace $ws10 output $primaryMonitor
 
 # bind program to workspace and focus to them on startup:
-assign [class="Brave|brave"]          → $ws1
-assign [class="Firefox|firefox"]      → $ws1
-assign [class="Thunar"]               → $ws2
-assign [class="IDEA|idea"]            → $ws7
-assign [class="Godot|godot"]          → $ws7
-assign [class="Code|code"]            → $ws7
-assign [class="Skype|skype"]          → $ws3
-assign [class="Alacritty|alacritty"]  → $ws8
-assign [class="Xfce4-terminal"]       → $ws8
-assign [class="Spotify|spotify"]      → $ws9
-for_window [class="Spotify"] move to workspace $ws9
+assign [class="Brave|brave"]          → $ws7
+assign [class="Firefox|firefox"]      → $ws7
+assign [class="Thunar"]               → $ws8
+assign [class="IDEA|idea"]            → $ws1
+assign [class="Godot|godot"]          → $ws1
+assign [class="Code|code"]            → $ws1
+assign [class="Skype|skype"]          → $ws9
+assign [class="Alacritty|alacritty"]  → $ws2
+assign [class="Xfce4-terminal"]       → $ws2
+assign [class="Spotify|spotify"]      → $ws6
+for_window [class="Spotify"] move to workspace $ws6
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class="Thunar"]               focus
